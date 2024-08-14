@@ -4,7 +4,7 @@ As we all know Debian 12 switched to pipewire as audio backend, and the crew hav
 
 So by default install, there is no AAC codec for bluetooth, but it can be manually build from source.
 
-Then there is the aac code plugin, install steps:
+Then there is the aac codec plugin, install steps:
 
 1. Make sure you are using PipeWire audio backend in `raspi-config`
 2. Install libfdk-aac2: `sudo apt install libfdk-aac2`
