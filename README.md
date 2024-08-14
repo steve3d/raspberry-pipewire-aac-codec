@@ -7,7 +7,7 @@ So by default install, there is no AAC codec for bluetooth, but it can be manual
 Then there is the aac code plugin, install steps:
 
 1. install libfdk-aac2: `sudo apt install libfdk-aac2`
-2. Download the [`libspa-codec-bluez5-aac.so`](./libspa-codec-bluez5-aac.so)
+2. Download the [`libspa-codec-bluez5-aac.so`](./raw/main/libspa-codec-bluez5-aac.so)
 3. Move it into `/usr/lib/aarch64-linux-gnu/spa-0.2/bluez5`
 4. Reboot
 5. Connect your Apple AirPods (any)
